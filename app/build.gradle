@@ -37,6 +37,14 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
-    implementation 'com.github.manalkaff:JetStick:1.2'
+    // Fast Android Networking Library (HTTP Comms)
+    implementation 'com.amitshekhar.android:android-networking:1.0.2'
+
+    // Jackson Parser library to be used with Fast Android Networking Library
+    implementation 'com.amitshekhar.android:jackson-android-networking:1.0.2'
+
+    // Gives access to Chrome Developer Tools
+    implementation 'com.facebook.stetho:stetho-okhttp3:1.6.0'
+
     implementation 'io.github.controlwear:virtualjoystick:1.10.1'
 }
