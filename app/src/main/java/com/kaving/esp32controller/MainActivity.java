@@ -45,6 +45,10 @@ public class MainActivity extends AppCompatActivity {
 
         joystickView.setOnMoveListener((angle, strength) -> {
 
+            // Set the value of the TextViews
+            angleText.setText("Angle: "  + angle);
+            strengthText.setText("Strength: " + strength);
+
             // Send joystick data to the ESP32 endpoint
             AndroidNetworking.post("http://192.168.4.1/joystickdata?angle=" + angle +
                     "&strength=" + strength).build();
