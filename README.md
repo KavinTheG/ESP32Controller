@@ -8,6 +8,10 @@ for UOCAV (University of Ottawa Connected Autonomous Vehicles).
 
 ### Usage
 In order to have communication between the app and the ESP32, ensure the phone is connected to the same network as the ESP32. 
+Pull from branch "**feature/httpLibraryUsage_FastAndroidNetworking**" in order to use Wifi communication 
+
+### Future Updates
+Another branch will be included for bluetooth communication. 
 
 
 ## Citation
